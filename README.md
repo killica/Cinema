@@ -126,6 +126,3 @@ To achieve this, Task Scheduler on Windows was used, which executes given tasks.
 ![filter](https://github.com/user-attachments/assets/23a1b6a8-3b6f-4845-be2d-657bd60ab6cc)
 
 The program operates on a straightforward principle: when it runs, it examines data from the database and compares the end times of film projections with the current system time (Java system time). If it determines that a projection has ended, the status of the projection or reservation is set to 0 (inactive). If a film has no active projections, its status is also set to 0. When a new projection is added, its status is set back to 1.
-
-# Presentation
-Presentation of the project is available [here](https://shorturl.at/ChHRy).
